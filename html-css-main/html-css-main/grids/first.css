@@ -1,0 +1,95 @@
+.container{
+    display: grid;
+    grid-template-rows: 300px 300px 350px;
+    grid-template-columns: 800px;
+    background: beige;
+}
+.banner{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 300px 300px 300px;
+}
+.banner1{
+    background: palegreen;
+}
+.banner2{
+    background: rgb(39, 126, 39);
+}
+.banner3{
+    background: rgb(11, 95, 11);
+}
+.about{
+    display: grid;
+    grid-template-rows: 50px 100px 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+}
+.title{
+    grid-row: 1/2;
+    grid-column: 1/10;
+    align-items: center;
+    text-align: center;
+    background: plum;
+}
+.container1{
+    grid-row: 2/5;
+    grid-column: 1/5;
+    display: grid;
+    grid-template-rows: 200px;
+    grid-template-columns: 200px 200px;
+}
+.content{
+    grid-row: 1/3;
+    grid-column: 1/2;
+    background: rgb(133, 69, 133);
+}
+.img{
+    grid-row:1/3;
+    grid-column:2/3;
+}
+
+.container2{
+    grid-row: 2/5;
+    grid-column: 5/11;
+    grid-template-rows: 50px 100px 100px;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px;
+    background: rgb(162, 64, 97);
+}
+.Baslik{
+    grid-row: 1/5;
+    grid-column: 1/2;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(65, 65, 134);
+}
+
+.pic1{
+    grid-column: 1/2;
+    grid-row: 2/4;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(175, 202, 202);
+}
+.pic2{
+    grid-column: 2/3;
+    grid-row: 2/34;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(118, 155, 155);
+
+}
+.pic3{
+    grid-column: 3/4;
+    grid-row: 2/4;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(47, 99, 99);
+
+}
+.pic4{
+    grid-column: 4/5;
+    grid-row: 2/4;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(8, 56, 56);
+
+}
